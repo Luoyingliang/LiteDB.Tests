@@ -8,4 +8,9 @@
 	<ItemGroup>
         <PackageReference Include="LiteDB" Version="5.0.10" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Update="ico_512x512.ico">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 </Project>

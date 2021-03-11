@@ -27,6 +27,10 @@ namespace Acorisoft.Demos.RxSamples
             {
                 Debug.WriteLine(name);
             }
+
+            //
+            // remove this line and run again
+            db.FileStorage.Upload(id , @"ico_512x512.ico");
             var stream = db.FileStorage.OpenRead(id);
             var bi = new BitmapImage();
             bi.BeginInit();
